@@ -4,8 +4,9 @@
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
 3. [File Descriptions](#files)
-4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+4. [Methods](#methods)
+5. [Results](#results)
+6. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
 
@@ -30,10 +31,19 @@ For this project, I was interested in using Seattle AirBNB data from 2016 to bet
 
 
 
-## File Descriptions <a name="files"></a>
+## File Descriptions <a name="methods"></a>
 
 There is one notebooks available here to showcase work related to the above questions. The notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
 
+## Methods <a name="files"></a>
+There was a lot of missing data in the data provided
+Columns with more than 75% of the data missing were removed or dropped from the
+data frame
+For columns with less than 75% of the data missing, the missing values were imputed
+with the mean vale of the column.
+For categorical variables I created dummy variables using 0, 1 encodings
+
+I used linear regression with sklearn to fit a model to the data
 
 ## Results<a name="results"></a>
 
@@ -42,3 +52,4 @@ The main findings of the code can be found at the post available [here](https://
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
 Must give credit to AirBNB for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/airbnb/seattle/data).
+Extra information from Airbnb can be found [here](https://www.airbnb.co.za/resources/hosting-homes/a/the-best-amenities-to-offer-right-now-203)

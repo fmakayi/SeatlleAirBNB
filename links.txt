@@ -1,0 +1,6 @@
+git remote add origin https://github.com/fmakayi/SeattleAirBNB.git
+
+
+https://github.com/fmakayi/SeattleAirBNB.git
+https://www.kaggle.com/airbnb/seattle/data
+https://fmakayi.github.io
